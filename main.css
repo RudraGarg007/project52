@@ -1,0 +1,71 @@
+h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 400px;
+}
+
+
+body{
+    margin: 0px;
+    background-color: rgb(247, 148, 238);
+    }
+
+    .menu {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .menu #myLinks {
+        display: none;
+      }
+      
+      .menu a {
+        color: white;
+        padding: 18px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .menu a.icon {
+        background: rgb(255, 255, 255);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .menu a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #000000;
+        color: white;
+        text-align: center;
+      }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 60px;
+}
+.origami{
+
+    border-radius: 20px;
+    background-color: honeydew;
+    padding: 30px;
+    width: 310px;
+    font-family: fantasy;
+    margin: 25px;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
